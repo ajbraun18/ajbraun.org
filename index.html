@@ -3,13 +3,56 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>AJ Braun</title>
+		<!-- This section does not concern headers, it instead contains info
+		about the document itself, setting parameters and such-->
 	</head>
-	<body>
+	<body style='background-color:powderblue;'
+	<!-- background-color does not affect the color of the text, merely of the background of the page-->
 		<section>
 			<article>
-			<h1>My first heading</h1>
-			<p>My first paragraph</p>
+			<h1 style="font-size:60px;">My first heading</h1>
+			<p title="I'm a tooltip.">
+			My first paragraph. Here is a <a href='https:w3schools.com' style='color:red'>link</a> 
+			to www.w3schools.com, where I am learning html. Since this sentence 
+			is a bit long, <br> lets start a new line.       We
+			can       type    with     weird
+			spacing
+			and
+			such here in the code, but the       page will ignore all
+			breaks    and spaces made       
+			here.  Only cares about the typical     elements.
+				<pre style='color:pink'>
+Hello.
+					
+This is an example of preformatted text.
+					
+It does not use page breaks.
+					
+Just my own formatting.  Goodbye.
+				</pre>
+			This is a great paragraph.
+			<!-- title="" whill display the string when hovering over text in the paragraph-->
+			</p>
+			<hr>
+			<!-- <hr> will split a page with a line horizontally.-->
+			<h2>Topics I enjoy, in no particular order</h2>
+			<ul style='color:blue'> 
+			<!-- This style ='' can be included into any element, say, for your paragraph
+			of a list, etc -->
+				<li>Physics</li>
+				<li>Chemistry</li>
+				<li>English</li>
+			</ul>
+			<h3 style="font-size:20px; color:green">Games I enjoy, ranked</h3>
+			<ol>
+				<li style='color:red'>Dark Souls</li>
+				<li>Pokemon</li>
+				<li>Many more</li>
 			</article>
 		</section>
+		<button>Click me!</button>
+		<img src='Weeb camoflauge.jpg' alt='Why am I like this' width='300' height='168'>
+		<!-- The alt='' is text shown when the image cannot be shown, while width
+		and height are what you could guess -->
 	</body>
 </html>
